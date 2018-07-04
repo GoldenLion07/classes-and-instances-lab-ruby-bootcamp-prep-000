@@ -1,19 +1,11 @@
-class Dog 
-  def set_name=(dog_name) 
+class Dog
 end
-  def get_name
-    return @name 
-  end
-end
-def set_owner=(owner_name)
-  @owner_name = owner_name
-end
-def get_owner
-  return @owner_name
-end
-def bark
-  return "Woof!"
-end
-end
-
-my_dog = Dog.new
+ 
+fido = Dog.new
+fido #=> #<Dog:0x007fc52c2d7d20>
+ 
+snoopy = Dog.new
+snoopy #=> #<Dog:0x007fc52c2d4170>
+ 
+lassie = Dog.new
+lassie
